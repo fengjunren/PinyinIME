@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<keyboard
+  skb_template="@xml/skb_template1"
+  width="25%p"
+  height="25%p"
+  key_type="0"
+  repeat="false"
+  balloon="false">
+
+  <row>
+    <key  label="1" code="8">
+      <!--<toggle_state state_id="@string/toggle_phone_sym" label="("/>-->
+    </key>
+    <key label="2" code="9">
+      <!--<toggle_state state_id="@string/toggle_phone_sym" label="/"/>-->
+    </key>
+    <key label="3" code="10">
+      <!--<toggle_state state_id="@string/toggle_phone_sym" label=")"/>-->
+    </key>
+
+    <key code="67" key_type="1" repeat="true" height="50%p"/>
+  </row>
+
+  <row>
+    <key label="4" code="11">
+      <toggle_state state_id="@string/toggle_phone_sym" label="N"/>
+    </key>
+    <key label="5" code="12">
+      <toggle_state state_id="@string/toggle_phone_sym" label="暂 停" code="44"/>
+    </key>
+    <key label="6" code="13">
+      <toggle_state state_id="@string/toggle_phone_sym" label=","/>
+    </key>
+    <!--<key label="."/>-->
+
+  </row>
+
+  <row>
+    <key label="7" code="14">
+      <toggle_state state_id="@string/toggle_phone_sym" label="*"
+        icon="@drawable/numstar"/>
+    </key>
+    <key label="8" code="15">
+      <toggle_state state_id="@string/toggle_phone_sym" label="等 待" code="51"/>
+    </key>
+    <key label="9" code="16">
+      <toggle_state state_id="@string/toggle_phone_sym" label="\#"/>
+        icon="@drawable/numpound"/>
+    </key>
+
+    <key  start_pos_x="75%p" start_pos_y="50%p"
+        width="25%p" height="50%p" code="66"  balloon="false" key_type="6">
+      <toggle_state state_id="@string/toggle_enter_go" label="去往" code="66"/>
+      <toggle_state state_id="@string/toggle_enter_search" code="66"
+          icon="@drawable/search_icon" icon_popup="@drawable/search_popup_icon"/>
+      <toggle_state state_id="@string/toggle_enter_send" label="发送" code="66"/>
+      <toggle_state state_id="@string/toggle_enter_next" label="下一个" code="66"/>
+      <toggle_state state_id="@string/toggle_enter_done" label="完成" code="66"/>
+    </key>
+  </row>
+
+  <row>
+    <!--<key icon="@drawable/numalt" code="-4" repeat="true">-->
+      <!--<toggle_state state_id="@string/toggle_phone_sym" label="123" code="-4"/>-->
+    <!--</key>-->
+    <!--<key label="."/>-->
+    <key label="0" code="7" width="50%p">
+      <toggle_state state_id="@string/toggle_phone_sym" label="+"/>
+    </key>
+    <key icon="@drawable/keyboard_close"  code="-205" />
+
+  </row>
+</keyboard>
