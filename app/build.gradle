@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 28
+//    buildToolsVersion "24.0.2"
 
     aaptOptions {
         noCompress 'dat'
     }
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 24
+        targetSdkVersion 28
         applicationId "com.tb.inputmethod.pinyin"
 
         externalNativeBuild {

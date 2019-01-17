@@ -1,0 +1,4 @@
+D:/workspace/remote/github/PinyinIME/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/jni_pinyinime.dir
+D:/workspace/remote/github/PinyinIME/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/engine.dir
+D:/workspace/remote/github/PinyinIME/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/workspace/remote/github/PinyinIME/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+Executable : D:\Program_Files\androidSDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\workspace\remote\github\PinyinIME\app\src\main\cpp
+-BD:\workspace\remote\github\PinyinIME\app\.externalNativeBuild\cmake\debug\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\workspace\remote\github\PinyinIME\app\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\Program_Files\androidSDK\ndk-bundle
+-DCMAKE_CXX_FLAGS=-Wall
+-DCMAKE_TOOLCHAIN_FILE=D:\Program_Files\androidSDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\Program_Files\androidSDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
